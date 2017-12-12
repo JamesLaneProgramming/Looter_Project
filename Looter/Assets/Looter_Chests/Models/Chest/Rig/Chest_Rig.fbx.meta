@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 2ab69bdfb91e65a4eb75a9e6ead155a1
+timeCreated: 1506318104
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: base_01
+    100002: base_02
+    100004: base_03
+    100006: base_04
+    100008: base_05
+    100010: base_06
+    100012: latch_01
+    100014: latch_02
+    100016: latch_03
+    100018: latch_04
+    100020: latch_05
+    100022: latch_06
+    100024: latch_jnt
+    100026: lid_01
+    100028: lid_02
+    100030: lid_03
+    100032: lid_04
+    100034: lid_05
+    100036: lid_06
+    100038: lid_jnt
+    100040: //RootNode
+    100042: root_jnt
+    400000: base_01
+    400002: base_02
+    400004: base_03
+    400006: base_04
+    400008: base_05
+    400010: base_06
+    400012: latch_01
+    400014: latch_02
+    400016: latch_03
+    400018: latch_04
+    400020: latch_05
+    400022: latch_06
+    400024: latch_jnt
+    400026: lid_01
+    400028: lid_02
+    400030: lid_03
+    400032: lid_04
+    400034: lid_05
+    400036: lid_06
+    400038: lid_jnt
+    400040: //RootNode
+    400042: root_jnt
+    2300000: base_01
+    2300002: base_02
+    2300004: base_03
+    2300006: base_04
+    2300008: base_05
+    2300010: base_06
+    2300012: latch_01
+    2300014: latch_02
+    2300016: latch_03
+    2300018: latch_04
+    2300020: latch_05
+    2300022: latch_06
+    2300024: lid_01
+    2300026: lid_02
+    2300028: lid_03
+    2300030: lid_04
+    2300032: lid_05
+    2300034: lid_06
+    3300000: base_01
+    3300002: base_02
+    3300004: base_03
+    3300006: base_04
+    3300008: base_05
+    3300010: base_06
+    3300012: latch_01
+    3300014: latch_02
+    3300016: latch_03
+    3300018: latch_04
+    3300020: latch_05
+    3300022: latch_06
+    3300024: lid_01
+    3300026: lid_02
+    3300028: lid_03
+    3300030: lid_04
+    3300032: lid_05
+    3300034: lid_06
+    4300000: latch_01
+    4300002: lid_01
+    4300004: base_01
+    4300006: latch_02
+    4300008: lid_02
+    4300010: base_02
+    4300012: latch_03
+    4300014: lid_03
+    4300016: base_03
+    4300018: latch_04
+    4300020: lid_04
+    4300022: base_04
+    4300024: latch_05
+    4300026: lid_05
+    4300028: base_05
+    4300030: latch_06
+    4300032: lid_06
+    4300034: base_06
+    7400000: IDLE
+    7400002: Open
+    7400004: Close
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IDLE
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 122
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 293
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
